@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>75TH INDEPENDENCE</title>
+</head>
+<style>
+    pre {
+        font-size: 2.5vh;
+        font-weight: bold;
+        text-align: center;
+    }
+    #img{
+        height: 65px;
+        width:100px;
+    }
+    #is{
+        width: 350px;
+        height: 380px;
+        margin-left: 580px;
+        margin-top: 150px;
+    }
+    @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+        #is{
+          -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(25px);
+        }
+      }
+    #ly{
+        margin-left: -80px; 
+    }
+    #orange{
+        color: orangered;
+    }
+    #blue{
+        margin-top: -60px;
+        color: blue;
+    }
+    #green{
+        margin-top: -60px;
+        color: green;
+    }
+    marquee{
+        height: 350px;
+    }
+    #bgvideo{
+        position: fixed;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+    }
+    #BA{
+        display: none;
+    }
+    button{
+            height: 60px;
+            width: 15%;
+            font-size: 5vh;
+            border: 5px solid orange;
+            border-radius: 25px;
+            text-align: center;
+            background-color: lawngreen;
+            color: darkblue;
+
+        }
+        #yearp{
+            height: 150px;
+
+        }
+</style>
+<body>
+    <div id="bgv">
+        <video id="bgvideo" autoplay loop muted>
+            <source src="bg.mp4">
+        </video>
+        <div id="audio">
+            <audio src="bg.mp3" id="BA" controls autoplay></audio>
+        </div>
+    </div>
+    <div id="year">
+        <img src="year.png" id="yearp">
+    </div>
+    <div id="is">
+        <div id="ly">
+            <marquee direction="up" scrollamount="4">
+        <pre>
+            <div id="orange">
+        जन गण मन अधिनायक जय हे
+        भारत भाग्य विधाता।
+        पंजाब सिन्ध गुजरात मराठा
+        द्रविड़ उत्कल बंग।
+        विंध्य हिमाचल यमुना गंगा
+        उच्छल जलधि तरंग।
+        </div>
+        <div id ="blue">
+        तव शुभ नामे जागे
+        </div>
+        <div id="green">
+        तव शुभ आशीष मागे।
+        गाहे तव जयगाथा।
+        जन गण मंगलदायक जय हे
+        भारत भाग्य विधाता।
+        जय हे, जय हे, जय हे
+        जय जय जय जय हे॥
+        </div>
+        <img src="ind.png" id="img">
+    </pre>
+    </marquee>
+    </div>
+    </div>
+    <div id="fo">
+        <a href="indian flag.html"><button id="flo">CLICK</button></a>
+
+        <a href="INDIA.html"><button id="lo" style="margin-left:1300px;">CLICK</button></a>
+    </div>
+</body>
+
+</html>
